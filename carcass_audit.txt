@@ -1,0 +1,25 @@
+train: '/content/drive/MyDrive/datset_yolov5/train'
+val: '/content/drive/MyDrive/datset_yolov5/test'
+nc: 4
+names:['unknown',
+    'B/I RIBEYE(C-1)',
+    'B/I SHORT RIBS(C-2)',
+    'BRISKET 120(C-1)',
+    'CHUCK SHORT RIB (C-2)',
+    'CHUCK FLAP(C-2)',
+    'CHUCKEYE ROLL(C-1)',
+    'OUTSIDE SKIRT(C-2)',
+    'OUTSIDE SKIRT(C-4)',
+    'RIB FINGER MEAT(C-12)',
+    'RIBEYE (C-0.5)',
+    'RIBEYE (C-1)',
+    'SHORT PLATE(C-1)',
+    'SHORT RIB CAP(C-2)',
+    'SHORT RIBS(C-2)',
+    'SHOULDER CLOD HEART(C-1)',
+    'SHOULDER CLOD TOP BLADE(C-1)',
+    'BACK RIBS(C-2)'
+    ]
+        
+        
+	   

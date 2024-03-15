@@ -1,0 +1,83 @@
+gcloud source repos clone
+  gcloud source repos create
+  gcloud source repos delete
+  gcloud source repos describe
+  gcloud source repos get-iam-policy
+  gcloud source repos list
+  gcloud source repos set-iam-policy
+  gcloud source repos update
+
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+git-hub-token- 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
+https://github.com/GENAICV/cicd.git
+
+https://github.com/GENAICV/cicd.git
+
+
+
+
+
+
+runtime: python27
+api_version: 1
+thredsafe: yes
+
+handlers:
+  - url: .*
+    script: main.app
+
+libraries:
+  name: webapp2
+  version: "2.5.2"
+
+
+
+gcloud source repos create 02cicd
+gcloud source repos clone 02cicd
+
+git remote add origin https://github.com/sauravsubudhi/rt-video-enhancer-backend.git
+
+git remote add origin https://sauravsubudhi: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@github.com/sauravsubudhi/rt-video-enhancer-backend.git
+
+git remote set-url origin https://sauravsubudhi:<token>@github.com/sauravsubudhi/rt-video-enhancer-backend.git
+
+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
+
+git remote set-url origin https://sauravsubudhi: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@github.com/sauravsubudhi/rt-video-enhancer-backend.git
+
+git clone https://username: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@github.com/RT-Innovations/rt-video-enhancer-backend.git
+
+
+/home/ssubudhi/test/rt-video-enhancer-backend
+scp -r user@remotehost:/some/remote/directory/bar
+
+
+ gcloud artifacts repositories add-iam-policy-binding my-repo --location=us-west1 --member=serviceAccount:new-cicd-400720@appspot.gserviceaccount.com --role="roles/artifactregistry.reader"
+
+https://huggingface.co/spaces/Shopify/background-replacement
+https://huggingface.co/spaces/awacke1/Image-to-Line-Drawings
+https://huggingface.co/spaces?p=8&sort=trending
+https://huggingface.co/spaces/ml6team/controlnet-interior-design
+https://huggingface.co/spaces/tonyassi/Midjourney-Image-to-Fashion-Shoot
+3d photo ->>https://huggingface.co/spaces/radames/dpt-depth-estimation-3d-obj
+Audio- https://huggingface.co/spaces/Audio-AGI/WavJourney
+https://huggingface.co/spaces/vinthony/SadTalker
+https://huggingface.co/spaces?p=1&sort=trending&search=control+vide
+https://huggingface.co/spaces/CVPR/DualStyleGAN
+https://vcai.mpi-inf.mpg.de/projects/DragGAN/
+https://github.com/showlab/Tune-A-Video/blob/main/notebooks/Tune-A-Video.ipynb(text_to_video)
+https://huggingface.co/spaces/fffiloni/CLIP-Interrogator-2
+Tell me B.No number ?
+https://huggingface.co/spaces/merve/pix2struct
+https://huggingface.co/google/deplot
+https://huggingface.co/spaces/tonyassi/fashion-stylist-bot
+https://huggingface.co/spaces/Gradio-Blocks/HairCLIP
+https://huggingface.co/spaces/SWHL/RapidOCRDemo
+https://huggingface.co/spaces/pragnakalp/Audio_Emotion_Recognition
+https://huggingface.co/spaces/zama-fhe/encrypted_health_prediction
+https://huggingface.co/stablediffusionapi/rsmpornxl?text=What+is+Rannamal+is+solving+in+the+current+industry+basically%2C+right%3F
+https://huggingface.co/stablediffusionapi/product-design?text=What+specific+challenges+or+problems+is+Runml+addressing+in+the+current+industry%3F+In+essence%2C+what+solutions+or+innovations+does+Rannamal+bring+to+the+table%3F
+https://huggingface.co/spaces/diffusers/stable-diffusion-xl-inpainting

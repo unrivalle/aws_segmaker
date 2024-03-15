@@ -1,0 +1,137 @@
+sudo docker run -it --name window_latest_test_1 -v /home/zmuhamm1/carcass-audit-jbs-canada/yolact/images:/app/cam_1 -p 105:81 window_test_1:latest
+sudo service mongodb  status
+sudo docker compose build
+sudo docker-compose up --build -d
+docker exec -ti fast_ai-classification /bin/bash
+#for carcass
+sudo docker exec -ti yoloact /bin/bash
+sudo systemctl status mongodb
+sudo docker compose up --build -d
+mongoexport --collection=infr_results --db=leakerData --out=movies_1.json
+
+nvidia-smi
+sudo kill -9 *pid*
+
+docker container ls -a
+sudo docker system prune
+
+mongoexport --db leakerData --collection infr_results --csv --out text.csv --fields _id,poly_info
+
+#to run an pulled docker images from docker hub
+sudo docker run -i -t c4d398d39f45
+#to get pubilc ip 
+curl ifconfig.me
+
+#command for checking port is open or not 
+nc -vz 20.228.212.145 5000
+
+
+#all continer remove at a time in docker 
+docker ps -aq
+
+#jupyter password issue jovyan
+solution -->docker exec -it -u root container_id bash
+docker exec -it -u root container_id bash
+
+
+#systemctl status mssql-server.service
+#sudo systemctl start mssql-server
+
+sqlcmd -S 35.226.162.83,1433 -U SA -P "Open@123"
+
+#docker exec -it sql-server-db  "bash"
+
+#For running sql-server in my gcp vm from docker composer file .
+link1 - https://khalidabuhakmeh.com/running-sql-server-queries-in-docker
+link2 - https://blog.logrocket.com/docker-sql-server/
+step - 1
+#sudo docker exec -it sql-server-db "bash"
+Step -2
+/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 'Pass123!'
+docker ps -aq
+"sql:latest"
+64a800d4acf5  <--servername
+
+#########----Deleting number of items of Feb month-----#######----awk'{print $9}'--> used to show 9th column of ls -ltr output---####
+
+$sudo ls  -ltr | grep <Feb> | tail -<number of items> | awk '{print $9}'| xargs rm
+
+
+###################--Counting No Of Items Of Output, (grep Feb--> used show only items containing 'Feb')----####################
+$ sudo ls  -ltr | grep Feb | wc -l
+
+#######################
+
+r=read=4
+w=write=2
+x=execute=1
+
+chmod -> Used to change file permission
+-------
+understand:___ chmod abc
+
+a = user
+b = for group
+c = for other
+
+ex: chmod 707
+----------
+Q. Giving read and excute permission to user.
+Ans. 
+$ chmod 500 <file-name>
+-------------
+#########----Changing Ownership Of a file/directory----#####
+u->User (current user, to check run $whoami)
+g->group
+
+$ chown u <filename>
+$ chown saurav <filename>
+$ chown <user>:<group> <filename>
+
+
+#--directory with multiple files--###
+$ 4 <user>:<group> <directory-name>
+
+#--only directory--###
+$ chown <user>:<group> <directory-name>
+
+--------------------------------------------
+
+
+#Temp6Oneew
+# delecting image afrom folder .
+
+#find . -type f -iname \*.png -delete
+
+
+#10.161.195.53:81/img_len
+
+#My vpn password is Randomtrees@1996
+
+sudo rm -rf *.png
+
+# To delete all continers 
+docker rm -vf $(docker ps -aq)
+#To delete all images .
+docker rmi -f $(docker images -aq) 
+docker rmi $(docker images -a -q)
+
+
+sudo usermod -aG docker flysauravtonayagarh
+#pushing data into docker hub.
+sudo docker push open123/carcass:latest
+
+mount -t nfs 10.191.132.68:/mldata/Greeley/LeakerAudit  ./targetDirectory
+
+du -h --max-depth=1
+
+gcloud builds submit --config cloudbuild.yaml function-source.zip
+
+#commands for Aws
+ssh -i test.pem ec2-user@ec2-18-133-156-167.eu-west-2.compute.amazonaws.com
+cat /etc/os-release
+#to check the free space in linux
+free -m
+#another coder for checking no cpu 
+lscpu
+

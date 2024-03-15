@@ -1,0 +1,69 @@
+/* 1 */
+{
+    "_id" : ObjectId("62ecd5508cc4e0c894f50856"),
+    "status" : "capture",
+    "camera_id" : "id_1",
+    "camera_name" : "Forequarter_Internal",
+    "box_score" : 0.908203125,
+    "box_label" : "Internal_facing_carcass",
+    "area_box" : 329966,
+    "count" : 1,
+    "poly_info" : [ 
+        {
+            "Pred_class" : "Outside_skirt_good",
+            "Class_id" : 1,
+            "Score" : 0.994613468647003,
+            "Box_coordinates" : [ 
+                394, 
+                214, 
+                578, 
+                476
+            ]
+        }, 
+        {
+            "Pred_class" : "Brisket-Damage",
+            "Class_id" : 8,
+            "Score" : 0.963117599487305,
+            "Box_coordinates" : [ 
+                278, 
+                490, 
+                403, 
+                649
+            ]
+        }, 
+        {
+            "Pred_class" : "Flank-Good",
+            "Class_id" : 11,
+            "Score" : 0.958065390586853,
+            "Box_coordinates" : [ 
+                279, 
+                0, 
+                421, 
+                463
+            ]
+        }, 
+        {
+            "Pred_class" : "Miss-split Bottom-Damage",
+            "Class_id" : 5,
+            "Score" : 0.89589786529541,
+            "Box_coordinates" : [ 
+                489, 
+                443, 
+                634, 
+                624
+            ]
+        }, 
+        {
+            "Pred_class" : "Miss-split Middle-Damage",
+            "Class_id" : 7,
+            "Score" : 0.866295158863068,
+            "Box_coordinates" : [ 
+                546, 
+                303, 
+                638, 
+                496
+            ]
+        }
+    ],
+    "time" : "2022-08-05 14:00:36"
+}

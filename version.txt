@@ -1,0 +1,29 @@
+pip install torchvision==0.10.1
+
+
+
+/app/img_store_tmp
+
+/home/jovyan/img_store_tmp
+
+sudo docker run -it --name window_latest_test_1 -v /home/zmuhamm1/carcass-audit-jbs-canada/yolact/images:/app/cam_1 
+
+sha256:1afbb1a5d0e4f844bb1244b33ba2f419e17d1009d900d0cc33d02caa357e9900
+
+sudo docker run -it -d  -v yolov5_images:/app/img_store_tmp --name yolov5_new_c yolov5_new
+
+sudo docker run -it -d -v yolov5_images:/home/jovyan/img_store_tmp --name jupyter_new_c jupyter_new 
+
+
+sudo docker cp  yolov5:/app/img_store_tmp/  notebooks:/home/jovyan/img_store_tmp
+
+
+
+
+
+
+
+
+
+
+

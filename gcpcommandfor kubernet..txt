@@ -1,0 +1,18 @@
+gcloud config list #to check all info
+gcloud config set project saurav-cicd
+gcloud container clusters create cicd-cluster --machine-type=e2-micro --num-nodes=2 --zone=asia-south1-a
+gcloud projects add-iam-policy-binding saurav-cicd   --member=user:arjungopi.0806@gmail.com   --role=roles/clouddeploy.admin
+
+steps:
+- name: 'gcr.io/cloud-builders/git'
+  args: ['clone','https://source.developers.google.com/p/saurav-cicd/r/cicd-gke']	
+
+
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build','-t','gcr.io/${PROJECT_ID}/${_SERVICE_NAME}:$SHORT_SHA','.']	
+
+
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push','gcr.io/${PROJECT_ID}/${_SERVICE_NAME}:$SHORT_SHA']
+
+	

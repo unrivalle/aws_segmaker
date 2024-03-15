@@ -1,0 +1,17 @@
+- gcloud container clusters get-credentials my-first-cluster-1 --zone us-central1-c --project saurav-cicd
+ 
+-git clone https://github.com/unrivalle/Deploy-.git
+
+-cd nodeapp/
+
+-docker build -t us.gcr.io/saurav-cicd/noadapp:tag .
+
+-sudo docker images 
+-docker push us.gcr.io/saurav-cicd/noadapp:tag
+- cd k8s/
+-vi deploy.yml
+-gcloud container clusters get-credentials my-first-cluster-1 --zone us-central1-c --project saurav-cicd
+-kubectl apply -f deploy.yml
+-kubectl get deploy
+-kubectl apply -f service.yml
+-kubectl get service

@@ -1,0 +1,9 @@
+{
+  "product_name": "RUNML",
+  "product_description": "MLops",
+  "audience": "Client",
+  "presentation_type": "Introduction",
+  "enhancement_type": "Brief",
+  "scene_no": 0,
+  "follow_word_count": true
+}
